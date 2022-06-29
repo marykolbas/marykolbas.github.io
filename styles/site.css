@@ -85,8 +85,9 @@ p{
 
 /* Images */
 .portrait{
-    max-width: 50%;
+    max-width: 40%;
     object-fit: contain;
+    margin-top: 40px;
 }
 
 
@@ -212,7 +213,7 @@ footer p{
 
 /* Different Screen Sizes */
 
-@media (max-width: 700px){
+@media (max-width: 750px){
     .row{
         display: block;
     }
