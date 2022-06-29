@@ -31,6 +31,10 @@ html{
     color: black;
     font-size: 20px;
 }
+.navigation li:hover{
+    background-color: NavajoWhite;
+    transition: visibility .5s;
+}
 .active{
     background: red;
 }
@@ -53,7 +57,7 @@ h2{
     text-align: center;
 }
 .largetext{
-    font-size: 22px;
+    font-size: 20px;
 }
 h3{
     margin:0px;
@@ -95,6 +99,17 @@ p{
     text-align: left;
     padding-top:20px;
 }
+em{
+    font-style: normal;
+    font-weight: bold;
+}
+.color1{
+    color: darkgoldenrod;
+}
+.color2{
+    color: lightcoral;
+}
+
 
 /* Experience */
 .experience_time{
