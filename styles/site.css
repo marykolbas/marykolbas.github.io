@@ -31,13 +31,14 @@ html{
     color: black;
     font-size: 20px;
 }
-.navigation li:hover{
-    background-color: NavajoWhite;
-    transition: visibility .5s;
+
+@media(min-width: 751px){
+    .navigation li:hover{
+        background-color: NavajoWhite;
+        transition: visibility .5s;
+    }
 }
-.active{
-    background: red;
-}
+
 
 .notnav{
     width:70%;
@@ -162,6 +163,8 @@ em{
 
 
 /* Buttons over images */
+@media(min-width: 751px){
+
 .img_wrap{
     position: relative;
     min-width:50%;
@@ -196,6 +199,8 @@ em{
 .img_wrap:hover .img_hovertext{
     visibility: visible;
     opacity: 1;
+}
+
 }
 
 /* Footer */
@@ -246,5 +251,9 @@ footer p{
         background: tan;
         margin: 0 auto;
         margin-bottom:40px;
+    }
+
+    .img_wrap .img_hovertext{
+        display: none;
     }
 }
