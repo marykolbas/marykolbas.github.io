@@ -118,7 +118,8 @@ em{
     font-style: italic;
 }
 .experience_text{
-    min-width:50%;
+    /* min-width:50%; */
+    max-width: 50%;
     margin-right:20px;
 
 }
@@ -126,7 +127,7 @@ em{
     margin-bottom: 50px;
 
 }
-.experience_entry img{
+.experience_entry_image{
     width:100%;
     margin: auto;
 }
@@ -136,6 +137,20 @@ em{
     object-fit:contain;
 }
 
+.logo{
+    padding: 0px;
+    margin-right: 10px;
+}
+.experience_title{
+    min-width:90%;
+}
+figure{
+    margin:10px;
+}
+figcaption{
+    text-align: center;
+    font-size: 14px;
+}
 
 
 /* Projects */
@@ -229,6 +244,9 @@ footer p{
     }
     .experience_entry{
         padding-bottom: 10px;
+    }
+    .experience_text{
+        max-width: 100%;
     }
     
     .project_caption{
