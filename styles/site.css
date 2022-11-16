@@ -89,6 +89,7 @@ p{
     max-width: 40%;
     object-fit: contain;
     margin-top: 40px;
+    clip-path: circle();
 }
 
 
