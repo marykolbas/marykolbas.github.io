@@ -180,6 +180,9 @@ figcaption{
     text-align: center;
     display: none;
 }
+.disclaimer{
+    text-align:center;
+}
 
 
 /* Buttons over images */
